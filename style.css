@@ -11,8 +11,6 @@
 }
 
 body {
-    background-repeat: no-repeat;
-    background-image: url("fondopollo.jpeg")
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
