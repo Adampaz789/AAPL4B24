@@ -9,7 +9,7 @@ body {
 
 /* Header */
 header {
-    background-color: #003366;
+    background-color: Orange;
     padding: 20px 0;
     text-align: center;
     color: white;
@@ -33,7 +33,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #003366;
+    background-color: Orange;
     padding: 15px 0;
 }
 
@@ -63,14 +63,14 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ffcc00;
+    color: Orange;
 }
 
 /* Main */
 main {
     padding: 50px 20px;
     text-align: center;
-    background-color: #ffffff;
+    background-color: Orange;
 }
 
 h1.h {
@@ -106,7 +106,7 @@ section p {
 }
 
 .promocion-item {
-    background-color: #f9f9f9;
+    background-color: Orange;
     border: 2px solid #ddd;
     border-radius: 10px;
     padding: 20px;
