@@ -1,4 +1,4 @@
-/* General */
+
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -7,7 +7,6 @@ body {
     color: #333;
 }
 
-/* Header */
 header {
     background-color: Orange;
     padding: 20px 0;
@@ -66,7 +65,7 @@ nav ul li a:hover {
     color: Orange;
 }
 
-/* Main */
+
 main {
     padding: 50px 20px;
     text-align: center;
@@ -163,7 +162,7 @@ section p {
     font-style: italic;
 }
 
-/* Mapa */
+
 .mapa iframe {
     border: none;
     width: 100%;
@@ -171,7 +170,6 @@ section p {
     border-radius: 10px;
 }
 
-/* Footer */
 footer {
     background-color: #003366;
     padding: 20px 0;
