@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Pollo Campero</title>
-  <link rel="stylesheet" href="styles2.css" />
+  <link rel="stylesheet" href="Pollo.css" />
 </head>
 <body>
   <header>
@@ -15,13 +15,45 @@
     <nav id="menu" class="desplegable">
       <img class="hola" src="logo.jpeg" alt="Logo de Pollo Campero" width="150" />
       <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Producto</a></li>
-        <li><a href="#">Envios</a></li>
-        <li><a href="#">Contáctanos</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="galeria.html">Producto</a></li>
+                <li><a href="proyecto.html">Envios</a></li>
+                <li><a href="contac.html">Contáctanos</a></li>
       </ul>
     </nav>
   </header>
+
+  <main>
+    <h1 class="h">Bienvenidos a Pollo Campero</h1>
+  </main>
+
+  <script>
+    let menu_desplegable = document.getElementById("menu");
+    let boton_cerrar = document.getElementById("boton_menu");
+
+    function abrir_cerrar_menu() {
+      menu_desplegable.classList.toggle("abrir_menu");
+      boton_cerrar.classList.toggle("colocar_x");
+    }
+  </script>
+</body>
+</html>
+
+  <main>
+    <h1 class="h">Bienvenidos a Pollo Campero</h1>
+  </main>
+
+  <script>
+    let menu_desplegable = document.getElementById("menu");
+    let boton_cerrar = document.getElementById("boton_menu");
+
+    function abrir_cerrar_menu() {
+      menu_desplegable.classList.toggle("abrir_menu");
+      boton_cerrar.classList.toggle("colocar_x");
+    }
+  </script>
+</body>
+</html>
 
   <main>
     <h1 class="h">Bienvenidos a Pollo Campero</h1>
